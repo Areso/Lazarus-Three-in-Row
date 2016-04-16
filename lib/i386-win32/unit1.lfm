@@ -1,0 +1,359 @@
+object Form1: TForm1
+  Left = 543
+  Height = 708
+  Top = 175
+  Width = 1300
+  Caption = 'Form1'
+  ClientHeight = 708
+  ClientWidth = 1300
+  OnCreate = FormCreate
+  LCLVersion = '1.4.4.0'
+  object Image00: TImage
+    Left = 0
+    Height = 90
+    Top = 0
+    Width = 90
+    OnClick = Image00Click
+  end
+  object Image01: TImage
+    Left = 88
+    Height = 90
+    Top = 0
+    Width = 90
+    OnClick = Image01Click
+  end
+  object Image02: TImage
+    Left = 176
+    Height = 90
+    Top = 0
+    Width = 90
+    OnClick = Image02Click
+  end
+  object Image03: TImage
+    Left = 264
+    Height = 90
+    Top = 0
+    Width = 90
+    OnClick = Image03Click
+  end
+  object Image04: TImage
+    Left = 352
+    Height = 90
+    Top = 0
+    Width = 90
+    OnClick = Image04Click
+  end
+  object Image05: TImage
+    Left = 440
+    Height = 90
+    Top = 0
+    Width = 90
+  end
+  object Image10: TImage
+    Left = 0
+    Height = 90
+    Top = 88
+    Width = 90
+    OnClick = Image10Click
+  end
+  object Image11: TImage
+    Left = 88
+    Height = 90
+    Top = 88
+    Width = 90
+    OnClick = Image11Click
+  end
+  object Image12: TImage
+    Left = 176
+    Height = 90
+    Top = 88
+    Width = 90
+    OnClick = Image12Click
+  end
+  object Image13: TImage
+    Left = 264
+    Height = 90
+    Top = 88
+    Width = 90
+    OnClick = Image13Click
+  end
+  object Image14: TImage
+    Left = 352
+    Height = 90
+    Top = 88
+    Width = 90
+    OnClick = Image14Click
+  end
+  object Image15: TImage
+    Left = 440
+    Height = 90
+    Top = 88
+    Width = 90
+  end
+  object Image20: TImage
+    Left = 0
+    Height = 90
+    Top = 176
+    Width = 90
+    OnClick = Image20Click
+  end
+  object Image21: TImage
+    Left = 88
+    Height = 90
+    Top = 176
+    Width = 90
+    OnClick = Image21Click
+  end
+  object Image22: TImage
+    Left = 176
+    Height = 90
+    Top = 176
+    Width = 90
+    OnClick = Image22Click
+  end
+  object Image23: TImage
+    Left = 264
+    Height = 90
+    Top = 176
+    Width = 90
+    OnClick = Image23Click
+  end
+  object Image24: TImage
+    Left = 352
+    Height = 90
+    Top = 176
+    Width = 90
+    OnClick = Image24Click
+  end
+  object Image25: TImage
+    Left = 440
+    Height = 90
+    Top = 176
+    Width = 90
+  end
+  object Image30: TImage
+    Left = 0
+    Height = 90
+    Top = 264
+    Width = 90
+    OnClick = Image30Click
+  end
+  object Image31: TImage
+    Left = 88
+    Height = 90
+    Top = 264
+    Width = 90
+    OnClick = Image31Click
+  end
+  object Image32: TImage
+    Left = 176
+    Height = 90
+    Top = 264
+    Width = 90
+    OnClick = Image32Click
+  end
+  object Image33: TImage
+    Left = 264
+    Height = 90
+    Top = 264
+    Width = 90
+    OnClick = Image33Click
+  end
+  object Image34: TImage
+    Left = 352
+    Height = 90
+    Top = 264
+    Width = 90
+    OnClick = Image34Click
+  end
+  object Image35: TImage
+    Left = 440
+    Height = 90
+    Top = 264
+    Width = 90
+  end
+  object Image40: TImage
+    Left = 0
+    Height = 90
+    Top = 352
+    Width = 90
+    OnClick = Image40Click
+  end
+  object Image41: TImage
+    Left = 88
+    Height = 90
+    Top = 352
+    Width = 90
+  end
+  object Image42: TImage
+    Left = 176
+    Height = 90
+    Top = 352
+    Width = 90
+  end
+  object Image43: TImage
+    Left = 264
+    Height = 90
+    Top = 352
+    Width = 90
+  end
+  object Image44: TImage
+    Left = 352
+    Height = 90
+    Top = 352
+    Width = 90
+  end
+  object Image45: TImage
+    Left = 440
+    Height = 90
+    Top = 352
+    Width = 90
+  end
+  object Edit1: TEdit
+    Left = 128
+    Height = 23
+    Top = 552
+    Width = 80
+    TabOrder = 0
+    Text = 'Edit1'
+  end
+  object Memo1: TMemo
+    Left = 264
+    Height = 90
+    Top = 560
+    Width = 150
+    Lines.Strings = (
+      ' '
+    )
+    TabOrder = 1
+  end
+  object Image50: TImage
+    Left = 0
+    Height = 90
+    Top = 440
+    Width = 90
+  end
+  object Image51: TImage
+    Left = 88
+    Height = 90
+    Top = 440
+    Width = 90
+  end
+  object Image52: TImage
+    Left = 176
+    Height = 90
+    Top = 440
+    Width = 90
+  end
+  object Image53: TImage
+    Left = 264
+    Height = 90
+    Top = 440
+    Width = 90
+  end
+  object Image54: TImage
+    Left = 352
+    Height = 90
+    Top = 440
+    Width = 90
+  end
+  object Image55: TImage
+    Left = 440
+    Height = 90
+    Top = 440
+    Width = 90
+  end
+  object ImageOne: TImage
+    Left = 640
+    Height = 24
+    Top = 56
+    Width = 90
+  end
+  object Button1: TButton
+    Left = 680
+    Height = 25
+    Top = 0
+    Width = 75
+    Caption = 'Button1'
+    OnClick = Button1Click
+    TabOrder = 2
+  end
+  object res0: TImage
+    Left = 640
+    Height = 90
+    Top = 136
+    Width = 90
+  end
+  object res1: TImage
+    Left = 728
+    Height = 90
+    Top = 136
+    Width = 90
+  end
+  object res2: TImage
+    Left = 816
+    Height = 90
+    Top = 136
+    Width = 90
+  end
+  object res3: TImage
+    Left = 904
+    Height = 90
+    Top = 136
+    Width = 90
+  end
+  object res4: TImage
+    Left = 992
+    Height = 90
+    Top = 136
+    Width = 90
+  end
+  object background: TImage
+    Left = 704
+    Height = 90
+    Top = 293
+    Width = 90
+    OnClick = backgroundClick
+  end
+  object Label1: TLabel
+    Left = 708
+    Height = 15
+    Top = 441
+    Width = 34
+    Caption = 'Label1'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 752
+    Height = 15
+    Top = 441
+    Width = 34
+    Caption = 'Label2'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 708
+    Height = 15
+    Top = 464
+    Width = 34
+    Caption = 'Label3'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 752
+    Height = 15
+    Top = 464
+    Width = 34
+    Caption = 'Label4'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 724
+    Height = 15
+    Top = 499
+    Width = 34
+    Caption = 'Label5'
+    ParentColor = False
+    OnClick = Label5Click
+  end
+end

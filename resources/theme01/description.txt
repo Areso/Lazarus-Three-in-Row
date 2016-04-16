@@ -1,0 +1,2 @@
+<desc>
+resource theme from HoMM3
